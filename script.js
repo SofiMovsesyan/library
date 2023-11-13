@@ -1,1 +1,8 @@
-console.log(areaCircle(2));
+function setup() {
+    console.log("setup");
+    createCanvas(100,100);
+}
+
+function draw() {
+    console.log("draw");
+}
