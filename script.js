@@ -1,0 +1,1 @@
+console.log(areaCircle(2));
