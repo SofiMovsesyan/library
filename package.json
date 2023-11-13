@@ -97,6 +97,7 @@
   },
   "scripts": {
     "build": "npx webpack --config webpack.config.js --mode development",
+    "build-prod": "npx webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
