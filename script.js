@@ -21,8 +21,8 @@ let angleSaturn = 0;
 let angleUranus = 0;
 let angleNeptune = 0;
 
-//preload, loadImage, resize, noFill,  ellipse, translate, imageMode, ellipseMode, image, push, pull, rotate, radians
-
+// resize, imageMode
+//
 function preload() {
     imgSun = loadImage('./images/sun.png');
 
