@@ -52,19 +52,21 @@ function setup() {
 
 function strokeForEarth(w, h) {
     noFill();
-    stroke(255); 
+    stroke(255, 255, 255); 
     ellipse(0, 0, w, h);
 }
 
 function draw() {
-    background("black");
+    background(0,0,0);
+
+    push()
 
     translate(width / 2, height / 2);
     
     
     // rotate(radians(angleSun));
     imageMode(CENTER);
-    ellipseMode(CENTER);
+
     image(imgSun, 0, 0);
 
     strokeForEarth(150, 150)
@@ -144,5 +146,7 @@ function draw() {
     angleSaturn += 1.7;
     angleUranus += 2.4;
     angleNeptune += 3.1;
+
+    pop()
 }
 
